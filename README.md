@@ -51,7 +51,7 @@ fish-profile-card/
 2. Open the project folder.
 3. Open `index.html` in a web browser.
 
-https://html-preview.github.io/?url=https://github.com/sofiamtz02/Finstagram/blob/main/index.html
+https://sofiamtz02.github.io/Finstagram/
 
 ---
 
