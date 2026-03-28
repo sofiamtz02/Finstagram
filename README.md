@@ -26,7 +26,7 @@ The goal of this project was to practice layout, positioning, and Flexbox center
 
 ## Technologies Used
 
-* HTML5
+* HTML
 * CSS3
 * Flexbox
 
