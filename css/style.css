@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background and centering */
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/pexels-tomfisk-1125979.jpg");
+
+    background-size: cover;
+    background-position: 100% 20%;
+    background-repeat: no-repeat;
+
+    /*we want card to center, not its content inside*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ==== Page section === */
+
+.page-title {
+    position: relative;
+    z-index: 1;
+
+    color: rgb(28, 49, 169);
+    padding: 20px;
+    margin-bottom: 153px;
+
+    background-color: #f0f0f0b5;
+    border-radius: 20px;
+    font-size: 3.0em;
+}
+
+/* Profile card container */
+.card {
+    position: relative;
+    z-index: 1;
+    background-color: #f0f0f0f0;
+
+    width: 400px;
+    height: 450px;
+    border-radius: 1.5em;
+    overflow: hidden;
+    /*will hide top pic to not show on borders */
+}
+
+
+/*  Card header with image  background*/
+.top {
+    /* border-top-left-radius: 1.5em;
+        border-top-right-radius: 1.5em; */
+    height: 34%;
+    background-image: url("../images/pexels-ekamelev-920160.jpg");
+    background-size: cover;
+
+    position: relative;
+}
+
+/* card profile picture */
+.profile-pic {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid white;
+    /* profile picture */
+    background-image: url("../images/profilee-dory.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+/* Card content of bottom section */
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 60px 30px 30px 30px;
+}
+
+/* Styling content of bottom section */
+.bottom h3 {
+    font-size: 1.3em;
+    margin: 20px;
+}
+
+.bottom h3 span {
+    color: grey;
+}
+
+.bottom p {
+    color: grey;
+    font-size: 0.9em;
+}
+
+.location {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    color: grey;
+}
+
+/* Social status section like, folowers, likes and photos */
+.stats {
+    display: flex;
+    text-align: center;
+    /*txt centered*/
+    gap: 1em;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+}
+
+.stats h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+/* password section */
+.password-section input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    font-size: 0.9em;
+    width: 220px;
+}
+
+.password-section button {
+    padding: 12px 30px;
+    background-color: orange;
+    color: white;
+
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+/* Card footer text */
+.not-my-fish {
+    padding-top: 10px;
+}
