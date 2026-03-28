@@ -8,6 +8,9 @@ This project is a responsive social profile card created using HTML and CSS. The
 
 The goal of this project was to practice layout, positioning, and Flexbox centering techniques while organizing CSS for readability and maintainability.
 
+<img width="600" height="100%" alt="finstagram" src="https://github.com/user-attachments/assets/4e462c26-bd90-428a-a3cc-90bdd0b9eb7f" />
+
+
 ---
 
 ## Features
